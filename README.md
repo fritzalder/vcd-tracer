@@ -20,3 +20,11 @@ $ ./generate_trace_graph.py -f examples/sancus-arithmetic/sim.vcd -e examples/sa
 22.10.2021_12:10:58-client_INFO: Success. Exiting
 $ xdot examples/sancus-arithmetic/trace.dot -f neato
 ```
+
+## Dependencies
+
+The script uses some python libraries. You will need these:
+
+```bash
+pip3 install -U vcdvcd tqdm
+```
